@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk"> <!-- Змінено мову на українську -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>День української жінки</title> <!-- Змінено заголовок -->
+</head>
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Привіт, красуне!</h1> <!-- Змінено привітання -->
+            <p class="pp" id="question">Марта сама ахуєнна дівчина?</p> <!-- Змінено запитання -->
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">Ні</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Так</button> <!-- Змінено текст кнопки -->
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Гарна спроба, але ти не втечеш так легко!</p> <!-- Змінено відповідь на "Ні" -->
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>Вітаю саму ахуєнну дівчину з днем української жінки!!!</p> <!-- Змінено відповідь на "Так" -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
